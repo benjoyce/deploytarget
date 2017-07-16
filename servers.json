@@ -1,0 +1,59 @@
+{
+    "servers" : [
+        {
+            "hostname": "ilc-dev-1",
+            "applications": [
+                {
+                    "id":"itsoldel-vmware-integration-service",
+                    "environments" : [
+                        {
+                            "id":"DEV",
+                            "state" : "active"
+                        }
+                    ]
+                },
+                {
+                    "id":"itsoldel-infrastructure-management-service",
+                        "environments" : [
+                        {
+                            "id":"INT",
+                            "state" : "active"
+                        }
+                    ]
+                },
+                {
+                    "id":"itsoldel-authentication-service",
+                        "environments" : [
+                        {
+                            "id":"INT",
+                            "state" : "active"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "hostname": "ilc-dev-2",
+            "applications": [
+                {
+                    "id":"itsoldel-infrastructure-management-service",
+                        "environments" : [
+                        {
+                            "id":"QA",
+                            "state" : "active"
+                        }
+                    ]
+                },
+                {
+                    "id":"itsoldel-authentication-service",
+                        "environments" : [
+                        {
+                            "id":"INT",
+                            "state" : "active"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
